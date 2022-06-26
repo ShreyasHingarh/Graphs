@@ -12,7 +12,7 @@ namespace The_Un_Graphs
 
             Vertex<int> a = new Vertex<int>(1);
             graph.AddVertex(a);
-            Vertex<int> b = a;
+           // Vertex<int> b = a;
             graph.AddVertex(b);
             Console.WriteLine(graph.VertexCount);
 
